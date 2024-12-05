@@ -1,0 +1,32 @@
+{
+  "name": "solana-wallet-tracker-with-shyft-callback",
+  "version": "1.0.0",
+  "description": "track solana cex or anyother walelts for transfer events",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/travis-rx/solana-wallet-tracker-with-shyft-callback.git"
+  },
+  "keywords": [
+    "solana",
+    "tracker",
+    "wallet"
+  ],
+  "author": "travis_rx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/travis-rx/solana-wallet-tracker-with-shyft-callback/issues"
+  },
+  "homepage": "https://github.com/travis-rx/solana-wallet-tracker-with-shyft-callback#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "ngrok": "^5.0.0-beta.2",
+    "node-fetch": "2.6.6"
+  }
+}
